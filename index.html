@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-devicewidth, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>The School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">St.Xavier's School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#contactUs">Contact Us</a></li>
+                <li><a href="#campusLife">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#whatsNew">What's New</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask queries on school@gmail.com ***
+        </marquee>
+    </div>
+
+    <iframe id="video" src="https://www.youtube.com/embed/9Frow8HMh74"></iframe>
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            <h2 class="text-capitalize">contact us</h2>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin"></iframe>
+        </div>
+
+        <div id="details">
+            <img src="https://kidsadda.com/wp-content/uploads/2014/10/if-i-were-a-principal-of-my-school.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal Name: </h3>
+            <h4>Mr.Xavier John Dcosta</h4>
+            <div class="contact_1">
+                <a href="mailto:school@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolId</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9916001600</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="page-header" id="campusLife">
+        <h2 class="text-capitalize">campus life</h2>
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://trinitariansindia.org/wp/wp-content/uploads/2018/04/Assam-new-parish-church-blessing-1-April-282018.png">
+                <h4 class="text-capitalize"><kbd>school church</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                <p class="text-muted text-left">Write something about the mentioned place</p>
+            </div>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://www.stxaviersschool.net/wp-content/uploads/2018/04/lib.jpg">
+                <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was build in 1980</h5>
+                <p class="text-muted text-left">Write something about the mentioned place</p>
+            </div>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="http://www.chaddaandassociates.com/wp-content/uploads/2017/07/xavier-school-auditorium-2.jpg">
+                <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was build in 1982</h5>
+                <p class="text-muted text-left">Write something about the mentioned place</p>
+            </div>
+        </div>
+    </div>
+    <div class="page-header" id="achievements">
+        <h2 class="text-capitalize">school achievements</h2>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+        Inter School Debate On Environment Pollution<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="school_achievement1" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+            <img src="https://vidhyashram.edu.in/wp-content/uploads/2018/10/IMG-20181027-WA0012-780x510.jpg" class="img-responsive img-thumbnail">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">Won first prize in inter school debate on environment pollution</h5>
+            <p>Write about this achievement</p>
+        </div>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+        Inter School Football Competition<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="school_achievement2" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+            <img src="https://media.yogems.com/220c9100-9808-11e9-b175-45eb217179ee.jpg" class="img-responsive img-thumbnail">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">Came second in inter school football competition</h5>
+            <p>Write about this achievement</p>
+        </div>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement3">
+        Inter School Science Project Compitition<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="school_achievement3" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+            <img src="https://mountolympus.in/wp-content/uploads/2020/03/IMG_4997.jpg" class="img-responsive img-thumbnail">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">Won second price in inter school science project competition</h5>
+            <p>Write about this achievement</p>
+        </div>
+    </div>
+    <div class="page-header" id="whatsNew">
+        <h2 class="text-capitalize">what's new</h2>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>New School Canteen</h4>
+            <img src="https://cobus-spaces.com/app/uploads/2019/03/cotswoldinteriors_hartpury-0112-1.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                The school made a new canteen. It made many designs of chairs and the canteen.
+            </p>
+        </li>
+        <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>Implemented Online Attendance Management System</h4>
+            <img src="https://5.imimg.com/data5/KB/VB/MY-6886566/student-attendance-management-system-500x500.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                The school made a online attendance management system through which parents can know if their child has reached the school or not. It works through the Internet.
+            </p>
+        </li>
+    </ul>
+    <div class="page-header" id="alumni">
+        <h2 class="text-capitalize">Our Alumni</h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/The_Minister_for_Tourism_and_Environment%2C_Maharashtra%2C_Shri_Aaditya_Thackeray_calling_on_the_Prime_Minister%2C_Shri_Narendra_Modi%2C_in_New_Delhi_on_February_21%2C_2020_%28Aditya_Thackeray%29_%28cropped%29.jpg" class="img-responsive">
+        <hr>
+        <p class="text-primary">Aditya Thackeray</p>
+    </div>
+    <div class="modal fade" id="school_alumni1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Aditya Thackeray</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/The_Minister_for_Tourism_and_Environment%2C_Maharashtra%2C_Shri_Aaditya_Thackeray_calling_on_the_Prime_Minister%2C_Shri_Narendra_Modi%2C_in_New_Delhi_on_February_21%2C_2020_%28Aditya_Thackeray%29_%28cropped%29.jpg" class="img_modal">
+                    <p class="p_modal">He is an Indian Politician serving as Cabinet Minister of Tourism and Environment Goverment of Maharashtra<br>
+                        <a href="https://en.wikipedia.org/wiki/Aaditya_Thackeray"><b>To Know More</b></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="alumniList" data-toggle="modal" data-target="#school_alumni2">
+        <img src="https://i0.wp.com/www.newsgram.com/wp-content/uploads/2020/08/65c755334063d659756fab3824ac3bbe1.jpg" class="img-responsive">
+        <hr>
+        <p class="text-primary">Vidya Balan</p>
+    </div>
+    <div class="modal fade" id="school_alumni2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Vidya Balan</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://i0.wp.com/www.newsgram.com/wp-content/uploads/2020/08/65c755334063d659756fab3824ac3bbe1.jpg" class="img_modal">
+                    <p class="p_modal">Vidya Balan (born 1 January 1979) is an Indian actress<br>
+                        <a href="https://en.wikipedia.org/wiki/Vidya_Balan"><b>To Know More</b></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni3">
+        <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" class="img-responsive">
+        <hr>
+        <p class="text-primary">Mukesh Ambani</p>
+    </div>
+    <div class="modal fade" id="school_alumni3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Mukesh Ambani</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c7d7829a7ea434b351ba0b6%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D206%26cropX2%3D2043%26cropY1%3D250%26cropY2%3D2089" class="img_modal">
+                    <p class="p_modal">Mukesh Dhirubhai Ambani (born 19 April 1957) is an Indian billionaire businessman, and the chairman, managing director, and largest shareholder of Reliance Industries Ltd<br>
+                        <a href="https://en.wikipedia.org/wiki/Mukesh_Ambani"><b>To Know More</b></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni4">
+        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/reporter/202011/rajdeep-1200x768.jpg?8_dbiZ9RwhfL6zJwgTqtxRW3ByaTjE7F" class="img-responsive">
+        <hr>
+        <p class="text-primary">Rajdeep Sardesai</p>
+    </div>
+    <div class="modal fade" id="school_alumni4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Rajdeep Sardesai</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/reporter/202011/rajdeep-1200x768.jpg?8_dbiZ9RwhfL6zJwgTqtxRW3ByaTjE7F" class="img_modal">
+                    <p class="p_modal">Rajdeep Sardesai (born 24 May 1965) is an Indian news anchor, journalist and author<br>
+                        <a href="https://en.wikipedia.org/wiki/Rajdeep_Sardesai"><b>To Know More</b></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
